@@ -56,7 +56,7 @@ public class PostCarryCookieController {
                 //接口的请求参数是getName和getPassword
                 //接口的返回参数是getName、getPassword、
                 //请求和返回的格式都是json
-                //给user类中的属性赋值并返回
+                //给account类中的属性赋值并返回
                 account = new Account();
                 account.setName("wenbing");
                 account.setPassword("wenbing@123");
