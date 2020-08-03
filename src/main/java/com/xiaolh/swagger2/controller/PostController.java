@@ -37,9 +37,11 @@ public class PostController {
             return "返回cookie，登录成功";
         }
         return "登录失败";
-
-
     }
+
+    //7、模拟post请求携带cookies信息
+    //以下代码中getusers方法就是携带cookies信息的post请求
+
 
 
 
